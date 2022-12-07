@@ -1,0 +1,15 @@
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\bin\Debug\net6.0\CSarphomework.exe
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\bin\Debug\net6.0\CSarphomework.deps.json
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\bin\Debug\net6.0\CSarphomework.runtimeconfig.json
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\bin\Debug\net6.0\CSarphomework.dll
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\bin\Debug\net6.0\CSarphomework.pdb
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.csproj.AssemblyReference.cache
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.AssemblyInfoInputs.cache
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.AssemblyInfo.cs
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.csproj.CoreCompileInputs.cache
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.dll
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\refint\CSarphomework.dll
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.pdb
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\CSarphomework.genruntimeconfig.cache
+C:\Users\Hp Elitebook\Desktop\p135\c#\CSarphomework\CSarphomework\obj\Debug\net6.0\ref\CSarphomework.dll
