@@ -8,8 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Hp Elitebook\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Hp Elitebook\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -20,12 +19,8 @@
       "packagesPath": "C:\\Users\\Hp Elitebook\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Hp Elitebook\\Desktop\\p135\\c#\\CSarphomework\\CSarphomework\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
         "C:\\Users\\Hp Elitebook\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
