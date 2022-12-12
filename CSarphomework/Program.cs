@@ -168,7 +168,7 @@
 
 //Console.WriteLine(number1);
 //Console.WriteLine(number2);
-#endregion
+
 
 
 
@@ -190,6 +190,8 @@
 //Console.WriteLine(count);
 
 using System.Diagnostics.CodeAnalysis;
+using System.Net.Sockets;
+using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
 
 int num1 = 55;
@@ -257,52 +259,52 @@ else
 //{
 //    int result = num5++;
 //    Console.WriteLine(result);
+////}
+
+//int new1= 10;
+//int new2 = 21;
+//int new3 = 15;
+//if (new1 > new2 || new2 > new3)
+//{
+//    int result = ++new1;
+//    Console.WriteLine(result);
+
+//}
+//else
+//{
+//    int result = new3++;
+//    Console.WriteLine(result);
 //}
 
-int new1= 10;
-int new2 = 21;
-int new3 = 15;
-if (new1 > new2 || new2 > new3)
-{
-    int result = ++new1;
-    Console.WriteLine(result);
+//int teymur1 = 5;
+//int teymur2 = 3;
+//int teymur3 = 4;
+//if (teymur1 > teymur2)
+//{
+//    int result = teymur1 + teymur2 + teymur3;
+//    Console.WriteLine(result);
+//}
+//else
+//{
+//    int result =teymur1-teymur2+teymur3;
+//    Console.WriteLine(result);
 
-}
-else
-{
-    int result = new3++;
-    Console.WriteLine(result);
-}
-
-int teymur1 = 5;
-int teymur2 = 3;
-int teymur3 = 4;
-if (teymur1 > teymur2)
-{
-    int result = teymur1 + teymur2 + teymur3;
-    Console.WriteLine(result);
-}
-else
-{
-    int result =teymur1-teymur2+teymur3;
-    Console.WriteLine(result);
-
-}
+//}
 
 
-int win1 = 304;
-int win2 = 454;
-int win3 = 434;
-if (win1 <= win3)
-{
-    int one = win1 * win2 % win3;
-    Console.WriteLine(one);
-}
-else
-{
-    int one= win2+win3;
-    Console.WriteLine(one);
-}
+//int win1 = 304;
+//int win2 = 454;
+//int win3 = 434;
+//if (win1 <= win3)
+//{
+//    int one = win1 * win2 % win3;
+//    Console.WriteLine(one);
+//}
+//else
+//{
+//    int one= win2+win3;
+//    Console.WriteLine(one);
+//}
 
 
 
@@ -311,15 +313,15 @@ else
 
 
 
-bool IsMarried = true;
- if (IsMarried)
-    {
-        Console.WriteLine("evlidir");
+//bool IsMarried = true;
+// if (IsMarried)
+//    {
+//        Console.WriteLine("evlidir");
 
-    }else
-    {
-        Console.WriteLine("subaydir");
-    }
+//    }else
+//    {
+//        Console.WriteLine("subaydir");
+//    }
 
 
 
@@ -353,87 +355,238 @@ bool IsMarried = true;
 
 
 
-string surname = "akberov";
-if (surname == "akber")
-{
-    Console.WriteLine("yes");
+//string surname = "akberov";
+//if (surname == "akber")
+//{
+//    Console.WriteLine("yes");
 
-}
-else
-{
-    Console.WriteLine("nou");
-}
+//}
+//else
+//{
+//    Console.WriteLine("nou");
+//}
 
 
 
-Sum2(3, 7);
+//Sum2(3, 7);
 
-static void Sum2(int n)
- {
-    if (n % 3 == 0 && n % 7 == 0) ;
-    {
-        Console.WriteLine("n 3e ve 7 e bolunur");
-    }
-  
-    
+//static void Sum2(int n)
+// {
+//    if (n % 3 == 0 && n % 7 == 0) ;
+//    {
+//        Console.WriteLine("n 3e ve 7 e bolunur");
+//    }
 
 
 
 
 
-}
-Sum1(50,40);
-static void Sum1(int n, int m)
-{
-    if (n % 2 == 0 && m % 2 == 0) 
-    {
-        Sum1= n + m;
-
-    } Console.WriteLine(Sum1);
-    
-    
-    
-    
-    
-}
-
-Eded()
-static void Eded(int n = 2, int m = 9,);
-
-    for (int i = n; int < i < m; i++) 
-{
-     if (i% 2 == 1)
-        {
-            Sum += i;
 
 
-        } Console.WriteLine(Sum);
-}
+//}
+//Sum1(50,40);
+//static void Sum1(int n, int m)
+//{
+//    if (n % 2 == 0 && m % 2 == 0) 
+//    {
+//        Sum1= n + m;
+
+//    } Console.WriteLine(Sum1);
 
 
 
-Factor(7);
 
-    static int Factor(int n)
-{
-       int factor = 1;
-       for (int i = 1; i <= n; i++)
-    {
-        factor*= i;
-        return factor;
-    }
 
-}
+//}
 
-one(5);
-static void one(int n,int m)
-{
-    Count = 0;
-    for (i = n;i<= m;i++);
-    {
+//Eded()
+//static void Eded(int n = 2, int m = 9,);
 
-        if (n % 2 == 1) ;
-        
-    }Console.WriteLine(one);
+//    for (int i = n; int < i < m; i++) 
+//{
+//     if (i% 2 == 1)
+//        {
+//            Sum += i;
 
-}
+
+//        } Console.WriteLine(Sum);
+//}
+
+
+
+//Factor(7);
+
+//    static int Factor(int n)
+//{
+//       int factor = 1;
+//       for (int i = 1; i <= n; i++)
+//    {
+//        factor*= i;
+//        return factor;
+//    }
+
+//}
+
+//one(5);
+//static void one(int n,int m)
+//{
+//    Count = 0;
+//    for (i = n;i<= m;i++);
+//    {
+
+//        if (n % 2 == 1) ;
+
+//    }Console.WriteLine(one);
+
+#endregion
+
+//int a = 5;
+//int b = a;
+//b = 10;
+
+//Console.WriteLine(a);
+//Console.WriteLine(b);
+
+//int c = 10;
+//int d = 20;
+//c = 20;
+//Console.WriteLine(c);
+//Console.WriteLine(d);
+
+
+//int[] arr1 = { 1, 2, 3 };
+//int[] arr2 = arr1;
+
+//Console.WriteLine(arr2[0]);
+//Console.WriteLine(arr1[0]);
+
+//int[] arr5 = { 1, 2, 3 };
+//int[] arr3 = arr1;
+//arr2[0] = 100;
+//Console.WriteLine(arr3[0]);
+//Console.WriteLine(arr5[0]);
+
+
+
+
+//int[] arr6= {5,6,7 };
+//int[] arr8 = {8,9,10};
+//arr8[0] = 200;
+//Console.WriteLine(arr8[0]);
+//Console.WriteLine(arr6[0]);
+
+
+//int n = 5;
+//Test(n);
+//Console.WriteLine(n);
+
+
+//static void Test(int n);
+//{
+//    n = 100;
+//    Console.WriteLine(n);
+//}
+
+//int[] arr = { 2, 3, 4, 5 };
+//test2(arr);
+
+//static void test2(int [] arr)
+//{
+//    Console.WriteLine(arr[0]);
+//}
+
+
+//int n = 5;
+//Test(ref n);
+//Console.WriteLine(n);
+//static void Test(ref int n)
+//{
+//    n = 340;
+
+//}Console.WriteLine(n);
+
+
+//int n;
+//Test(out n);
+//Console.WriteLine(n);
+
+//static void Test(out int n)
+//{
+//    n = 400;
+//    Console.WriteLine(n);
+//}
+
+//int n; 
+//Test(out n);
+//Console.WriteLine(n);
+//static void Test(out int n);
+//{
+//    n = 2;
+//    Console.WriteLine(n);
+//}
+
+
+//int n = 300;
+//Big (out n);
+//Console.WriteLine(n);
+
+//static void Big(out int n)
+//{
+//    n = 2;
+//    Console.WriteLine(n);
+//}
+
+//string name = "Akber";
+//string name2 = name;
+//Console.WriteLine(name);
+//Console.WriteLine(name2);
+
+
+//string address = "Baku";
+//Console.WriteLine(address.Length);
+
+//string address = "baku";
+//int result = address.Length;
+//Console.WriteLine(result);
+
+
+
+//string addres = "baku";
+//Console.WriteLine(addres.StartsWith("b"));
+
+//string address = "baku";
+//Console.WriteLine(address.EndsWith("u"));
+
+//if (address.EndsWith("u"))
+//{
+//    Console.WriteLine("yeah");
+
+
+//}   
+//else
+//{
+//    Console.WriteLine("nou");
+//}
+
+
+//address = "Xezer";
+//Console.WriteLine(address.Toupper)());
+
+//string address = "roya";
+// var letter = address[2].ToString().ToUpper();
+//var  arr = address.ToCharArray();
+//arr[2]= char.Parse(letter);
+//string result = "";
+//foreach (var itemin arr)
+//{
+//    result += itemin;
+//}
+
+////Console.WriteLine(result);
+//string name = "jeyhun";
+//Console.WriteLine(name.ToUpper());
+
+//string name = "jeyhun";
+
+//Console.WriteLine(name.Replace("jeyhun", "nuhyej"));
+
