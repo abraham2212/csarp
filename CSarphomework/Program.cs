@@ -189,10 +189,13 @@
 //}
 //Console.WriteLine(count);
 
+using CSarphomework;
 using System.Diagnostics.CodeAnalysis;
 using System.Net.Sockets;
 using System.Numerics;
 using System.Reflection.Metadata.Ecma335;
+using System.Security.Principal;
+using System.Text;
 
 int num1 = 55;
 int num2 = 55;
@@ -589,4 +592,135 @@ else
 //string name = "jeyhun";
 
 //Console.WriteLine(name.Replace("jeyhun", "nuhyej"));
+
+
+
+
+
+
+//string name = "aydin";
+//name = "ferid";
+
+//StringBuilder stringBuilder= new StringBuilder();
+
+
+//string name = "ay";
+//string name2 = "din";
+//string endName = name + name2;
+
+//StringBuilder stringBuilder= new StringBuilder();
+//stringBuilder.Append("ay");
+//stringBuilder.Append("din");
+//Console.WriteLine(stringBuilder);
+
+
+//int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+
+//int[] arr2 = new int[10];
+//int[] arr3 = new int[5] { 1, 2, 3, 4, 5, };
+
+
+//Console.WriteLine(arr1[1]);
+
+//Console.WriteLine(arr1.Length);
+
+//Console.WriteLine(arr1.FirstOrDefault());
+
+
+
+//int[] arr4 = {2,4,5,6};
+// Console.WriteLine(arr4.Length);
+//Array.Resize(ref arr1, 4);
+
+//Console.WriteLine(arr4.Length);
+
+
+
+
+//int[] arr5 = { 3, 4, 5, 6 };
+
+//foreach (var item in arr5) 
+//{
+//     Console.WriteLine($"{item}");
+
+
+//}
+
+////var newArr = arr5.Clone();
+////int[] arr5 = { 3,4,5,6 };
+
+////arr5.CopyTo(arr5, 3);
+
+////foreach (var item in arr5)
+////{
+////    Console.WriteLine(item);
+////}
+
+
+
+//string name4 = "Cinare";
+//var test = name.Reverse().ToArray();
+//string res = "";
+
+//foreach ( var item in test)
+//{
+//    res += item;
+//}
+// Console.WriteLine(res);
+
+//int[,] array2D = new int[,] {{ 1, 2 }, { 3, 4 }, { 5, 6 }, { 7,8 }};
+//Console.WriteLine(array2D[0,1,]);
+
+
+//WriteConsole("hello");
+
+
+//static void WriteConsole(string text)
+//{
+//    Console.WriteLine(text);
+
+//}
+
+
+
+//string name6 = "cavid";
+//string surname6 = "alizade";
+//int age6 = 23;
+
+
+
+//string name8 = "aydin";
+//string surname8 = "salami";
+//int age8 = 26;
+ 
+//Console.WriteLine($"{name8} {surname8} {age8}");
+
+
+//var stu8 = new
+//{
+//    name = "cavid",
+//    surname = "alizade",
+//age=23
+
+//};
+
+
+
+Account account1 = new Account();
+account1.username = "Cavid123";
+account1.password = "Cavid1993";
+
+ Console.WriteLine($"{account1.username} - {account1.password}");
+
+if (1account1.username = account1.password)
+{
+
+    Console.WriteLine("giris duzgundur");
+
+}
+else
+{
+    Console.WriteLine("yanlisdir");
+}
+
 
