@@ -197,530 +197,548 @@ using System.Reflection.Metadata.Ecma335;
 using System.Security.Principal;
 using System.Text;
 
-int num1 = 55;
-int num2 = 55;
-if (num1 >= num2) 
-{
-    //Console.WriteLine("yeah");
-
-
-}
-else
-{
-    //Console.WriteLine("no");
-
-}
-
-//int num3 = 40;
-//int num5 = 23;
-//if (num3 < num5)
+internal class Program
 //{
-//    Console.WriteLine("duzgundur");
-
-//}
-//else
-//{
-//    Console.WriteLine("xeyir duzgun deyil ");
-
-//}
-
-//int num10 = 23;
-//int num6 = 44;
-//if (num10 < num6)
-//{
-//    Console.WriteLine(num6 + num10);
-//}
-//else
-//{
-//    Console.WriteLine(num6 - num10);
-//}
-
-//int won1 = 34;
-//int won2 = 3453;
-//if (won1 <= won2)
-//{
-//    Console.WriteLine(won2 * won1);
-
-//}
-//else
-//{
-//    Console.WriteLine(won2 % won1);
-
-
-
-//int num5 = 14;
-//int num7 = 23;
-//int num8 = 23;
-
-//if (num5 <40|| num8 <1)
-//{
-//    int result = ++num7;
-//    Console.WriteLine(result);
-
-//}
-//else
-//{
-//    int result = num5++;
-//    Console.WriteLine(result);
-////}
-
-//int new1= 10;
-//int new2 = 21;
-//int new3 = 15;
-//if (new1 > new2 || new2 > new3)
-//{
-//    int result = ++new1;
-//    Console.WriteLine(result);
-
-//}
-//else
-//{
-//    int result = new3++;
-//    Console.WriteLine(result);
-//}
-
-//int teymur1 = 5;
-//int teymur2 = 3;
-//int teymur3 = 4;
-//if (teymur1 > teymur2)
-//{
-//    int result = teymur1 + teymur2 + teymur3;
-//    Console.WriteLine(result);
-//}
-//else
-//{
-//    int result =teymur1-teymur2+teymur3;
-//    Console.WriteLine(result);
-
-//}
-
-
-//int win1 = 304;
-//int win2 = 454;
-//int win3 = 434;
-//if (win1 <= win3)
-//{
-//    int one = win1 * win2 % win3;
-//    Console.WriteLine(one);
-//}
-//else
-//{
-//    int one= win2+win3;
-//    Console.WriteLine(one);
-//}
-
-
-
-
-
-
-
-
-//bool IsMarried = true;
-// if (IsMarried)
+//    private static void Main(string[] args)
 //    {
-//        Console.WriteLine("evlidir");
-
-//    }else
-//    {
-//        Console.WriteLine("subaydir");
-//    }
-
-
-
-//string teymur = "pending";
-//switch (teymur)
-//{
-//    case "Pending":
-//        Console.WriteLine("is pending");
-//        break;
-//    case "Confirmed":
-//        Console.WriteLine("is confirmed");
-//        break;
-//    case "Ready":
-//        Console.WriteLine("is ready");
-//        break;
-//        default:
-//        break;
-
-
-
-
-
-//}
-//int[] numer = { 5, 6, 7, 100, 200, 300 };
-//foreach (var now in numer) ;
-//if (now == 100 )
-//{
-//    continue;
-//    Console.WriteLine($"{now} has found");
-//}
-
-
-
-//string surname = "akberov";
-//if (surname == "akber")
-//{
-//    Console.WriteLine("yes");
-
-//}
-//else
-//{
-//    Console.WriteLine("nou");
-//}
-
-
-
-//Sum2(3, 7);
-
-//static void Sum2(int n)
-// {
-//    if (n % 3 == 0 && n % 7 == 0) ;
-//    {
-//        Console.WriteLine("n 3e ve 7 e bolunur");
-//    }
-
-
-
-
-
-
-
-//}
-//Sum1(50,40);
-//static void Sum1(int n, int m)
-//{
-//    if (n % 2 == 0 && m % 2 == 0) 
-//    {
-//        Sum1= n + m;
-
-//    } Console.WriteLine(Sum1);
-
-
-
-
-
-//}
-
-//Eded()
-//static void Eded(int n = 2, int m = 9,);
-
-//    for (int i = n; int < i < m; i++) 
-//{
-//     if (i% 2 == 1)
+//        int num1 = 55;
+//        int num2 = 55;
+//        if (num1 >= num2)
 //        {
-//            Sum += i;
+            //Console.WriteLine("yeah");
+
+
+        //}
+        //else
+        //{
+        //    //Console.WriteLine("no");
+
+        //}
+
+        //int num3 = 40;
+        //int num5 = 23;
+        //if (num3 < num5)
+        //{
+        //    Console.WriteLine("duzgundur");
+
+        //}
+        //else
+        //{
+        //    Console.WriteLine("xeyir duzgun deyil ");
+
+        //}
+
+        //int num10 = 23;
+        //int num6 = 44;
+        //if (num10 < num6)
+        //{
+        //    Console.WriteLine(num6 + num10);
+        //}
+        //else
+        //{
+        //    Console.WriteLine(num6 - num10);
+        //}
+
+        //int won1 = 34;
+        //int won2 = 3453;
+        //if (won1 <= won2)
+        //{
+        //    Console.WriteLine(won2 * won1);
+
+        //}
+        //else
+        //{
+        //    Console.WriteLine(won2 % won1);
+
+
 
+        //int num5 = 14;
+        //int num7 = 23;
+        //int num8 = 23;
+
+        //if (num5 <40|| num8 <1)
+        //{
+        //    int result = ++num7;
+        //    Console.WriteLine(result);
+
+        //}
+        //else
+        //{
+        //    int result = num5++;
+        //    Console.WriteLine(result);
+        ////}
 
-//        } Console.WriteLine(Sum);
-//}
+        //int new1= 10;
+        //int new2 = 21;
+        //int new3 = 15;
+        //if (new1 > new2 || new2 > new3)
+        //{
+        //    int result = ++new1;
+        //    Console.WriteLine(result);
 
+        //}
+        //else
+        //{
+        //    int result = new3++;
+        //    Console.WriteLine(result);
+        //}
 
+        //int teymur1 = 5;
+        //int teymur2 = 3;
+        //int teymur3 = 4;
+        //if (teymur1 > teymur2)
+        //{
+        //    int result = teymur1 + teymur2 + teymur3;
+        //    Console.WriteLine(result);
+        //}
+        //else
+        //{
+        //    int result =teymur1-teymur2+teymur3;
+        //    Console.WriteLine(result);
 
-//Factor(7);
+        //}
 
-//    static int Factor(int n)
-//{
-//       int factor = 1;
-//       for (int i = 1; i <= n; i++)
-//    {
-//        factor*= i;
-//        return factor;
-//    }
 
-//}
+        //int win1 = 304;
+        //int win2 = 454;
+        //int win3 = 434;
+        //if (win1 <= win3)
+        //{
+        //    int one = win1 * win2 % win3;
+        //    Console.WriteLine(one);
+        //}
+        //else
+        //{
+        //    int one= win2+win3;
+        //    Console.WriteLine(one);
+        //}
 
-//one(5);
-//static void one(int n,int m)
-//{
-//    Count = 0;
-//    for (i = n;i<= m;i++);
-//    {
 
-//        if (n % 2 == 1) ;
 
-//    }Console.WriteLine(one);
 
-#endregion
 
-//int a = 5;
-//int b = a;
-//b = 10;
 
-//Console.WriteLine(a);
-//Console.WriteLine(b);
 
-//int c = 10;
-//int d = 20;
-//c = 20;
-//Console.WriteLine(c);
-//Console.WriteLine(d);
 
+        //bool IsMarried = true;
+        // if (IsMarried)
+        //    {
+        //        Console.WriteLine("evlidir");
 
-//int[] arr1 = { 1, 2, 3 };
-//int[] arr2 = arr1;
+        //    }else
+        //    {
+        //        Console.WriteLine("subaydir");
+        //    }
 
-//Console.WriteLine(arr2[0]);
-//Console.WriteLine(arr1[0]);
 
-//int[] arr5 = { 1, 2, 3 };
-//int[] arr3 = arr1;
-//arr2[0] = 100;
-//Console.WriteLine(arr3[0]);
-//Console.WriteLine(arr5[0]);
 
+        //string teymur = "pending";
+        //switch (teymur)
+        //{
+        //    case "Pending":
+        //        Console.WriteLine("is pending");
+        //        break;
+        //    case "Confirmed":
+        //        Console.WriteLine("is confirmed");
+        //        break;
+        //    case "Ready":
+        //        Console.WriteLine("is ready");
+        //        break;
+        //        default:
+        //        break;
 
 
 
-//int[] arr6= {5,6,7 };
-//int[] arr8 = {8,9,10};
-//arr8[0] = 200;
-//Console.WriteLine(arr8[0]);
-//Console.WriteLine(arr6[0]);
 
 
-//int n = 5;
-//Test(n);
-//Console.WriteLine(n);
+        //}
+        //int[] numer = { 5, 6, 7, 100, 200, 300 };
+        //foreach (var now in numer) ;
+        //if (now == 100 )
+        //{
+        //    continue;
+        //    Console.WriteLine($"{now} has found");
+        //}
 
 
-//static void Test(int n);
-//{
-//    n = 100;
-//    Console.WriteLine(n);
-//}
 
-//int[] arr = { 2, 3, 4, 5 };
-//test2(arr);
+        //string surname = "akberov";
+        //if (surname == "akber")
+        //{
+        //    Console.WriteLine("yes");
 
-//static void test2(int [] arr)
-//{
-//    Console.WriteLine(arr[0]);
-//}
+        //}
+        //else
+        //{
+        //    Console.WriteLine("nou");
+        //}
 
 
-//int n = 5;
-//Test(ref n);
-//Console.WriteLine(n);
-//static void Test(ref int n)
-//{
-//    n = 340;
 
-//}Console.WriteLine(n);
+        //Sum2(3, 7);
 
+        //static void Sum2(int n)
+        // {
+        //    if (n % 3 == 0 && n % 7 == 0) ;
+        //    {
+        //        Console.WriteLine("n 3e ve 7 e bolunur");
+        //    }
 
-//int n;
-//Test(out n);
-//Console.WriteLine(n);
 
-//static void Test(out int n)
-//{
-//    n = 400;
-//    Console.WriteLine(n);
-//}
 
-//int n; 
-//Test(out n);
-//Console.WriteLine(n);
-//static void Test(out int n);
-//{
-//    n = 2;
-//    Console.WriteLine(n);
-//}
 
 
-//int n = 300;
-//Big (out n);
-//Console.WriteLine(n);
 
-//static void Big(out int n)
-//{
-//    n = 2;
-//    Console.WriteLine(n);
-//}
 
-//string name = "Akber";
-//string name2 = name;
-//Console.WriteLine(name);
-//Console.WriteLine(name2);
+        //}
+        //Sum1(50,40);
+        //static void Sum1(int n, int m)
+        //{
+        //    if (n % 2 == 0 && m % 2 == 0) 
+        //    {
+        //        Sum1= n + m;
 
+        //    } Console.WriteLine(Sum1);
 
-//string address = "Baku";
-//Console.WriteLine(address.Length);
 
-//string address = "baku";
-//int result = address.Length;
-//Console.WriteLine(result);
 
 
 
-//string addres = "baku";
-//Console.WriteLine(addres.StartsWith("b"));
+        //}
 
-//string address = "baku";
-//Console.WriteLine(address.EndsWith("u"));
+        //Eded()
+        //static void Eded(int n = 2, int m = 9,);
 
-//if (address.EndsWith("u"))
-//{
-//    Console.WriteLine("yeah");
+        //    for (int i = n; int < i < m; i++) 
+        //{
+        //     if (i% 2 == 1)
+        //        {
+        //            Sum += i;
 
 
-//}   
-//else
-//{
-//    Console.WriteLine("nou");
-//}
+        //        } Console.WriteLine(Sum);
+        //}
 
 
-//address = "Xezer";
-//Console.WriteLine(address.Toupper)());
 
-//string address = "roya";
-// var letter = address[2].ToString().ToUpper();
-//var  arr = address.ToCharArray();
-//arr[2]= char.Parse(letter);
-//string result = "";
-//foreach (var itemin arr)
-//{
-//    result += itemin;
-//}
+        //Factor(7);
 
-////Console.WriteLine(result);
-//string name = "jeyhun";
-//Console.WriteLine(name.ToUpper());
+        //    static int Factor(int n)
+        //{
+        //       int factor = 1;
+        //       for (int i = 1; i <= n; i++)
+        //    {
+        //        factor*= i;
+        //        return factor;
+        //    }
 
-//string name = "jeyhun";
+        //}
 
-//Console.WriteLine(name.Replace("jeyhun", "nuhyej"));
+        //one(5);
+        //static void one(int n,int m)
+        //{
+        //    Count = 0;
+        //    for (i = n;i<= m;i++);
+        //    {
 
+        //        if (n % 2 == 1) ;
 
+        //    }Console.WriteLine(one);
 
+        #endregion
 
+        //int a = 5;
+        //int b = a;
+        //b = 10;
 
+        //Console.WriteLine(a);
+        //Console.WriteLine(b);
 
-//string name = "aydin";
-//name = "ferid";
+        //int c = 10;
+        //int d = 20;
+        //c = 20;
+        //Console.WriteLine(c);
+        //Console.WriteLine(d);
 
-//StringBuilder stringBuilder= new StringBuilder();
 
+        //int[] arr1 = { 1, 2, 3 };
+        //int[] arr2 = arr1;
 
-//string name = "ay";
-//string name2 = "din";
-//string endName = name + name2;
+        //Console.WriteLine(arr2[0]);
+        //Console.WriteLine(arr1[0]);
 
-//StringBuilder stringBuilder= new StringBuilder();
-//stringBuilder.Append("ay");
-//stringBuilder.Append("din");
-//Console.WriteLine(stringBuilder);
+        //int[] arr5 = { 1, 2, 3 };
+        //int[] arr3 = arr1;
+        //arr2[0] = 100;
+        //Console.WriteLine(arr3[0]);
+        //Console.WriteLine(arr5[0]);
 
 
-//int[] arr1 = { 1, 2, 3, 4, 5, 6 };
 
-//int[] arr2 = new int[10];
-//int[] arr3 = new int[5] { 1, 2, 3, 4, 5, };
 
+        //int[] arr6= {5,6,7 };
+        //int[] arr8 = {8,9,10};
+        //arr8[0] = 200;
+        //Console.WriteLine(arr8[0]);
+        //Console.WriteLine(arr6[0]);
 
-//Console.WriteLine(arr1[1]);
 
-//Console.WriteLine(arr1.Length);
+        //int n = 5;
+        //Test(n);
+        //Console.WriteLine(n);
 
-//Console.WriteLine(arr1.FirstOrDefault());
 
+        //static void Test(int n);
+        //{
+        //    n = 100;
+        //    Console.WriteLine(n);
+        //}
 
+        //int[] arr = { 2, 3, 4, 5 };
+        //test2(arr);
 
-//int[] arr4 = {2,4,5,6};
-// Console.WriteLine(arr4.Length);
-//Array.Resize(ref arr1, 4);
+        //static void test2(int [] arr)
+        //{
+        //    Console.WriteLine(arr[0]);
+        //}
 
-//Console.WriteLine(arr4.Length);
 
+        //int n = 5;
+        //Test(ref n);
+        //Console.WriteLine(n);
+        //static void Test(ref int n)
+        //{
+        //    n = 340;
 
+        //}Console.WriteLine(n);
 
 
-//int[] arr5 = { 3, 4, 5, 6 };
+        //int n;
+        //Test(out n);
+        //Console.WriteLine(n);
 
-//foreach (var item in arr5) 
-//{
-//     Console.WriteLine($"{item}");
+        //static void Test(out int n)
+        //{
+        //    n = 400;
+        //    Console.WriteLine(n);
+        //}
 
+        //int n; 
+        //Test(out n);
+        //Console.WriteLine(n);
+        //static void Test(out int n);
+        //{
+        //    n = 2;
+        //    Console.WriteLine(n);
+        //}
 
-//}
 
-////var newArr = arr5.Clone();
-////int[] arr5 = { 3,4,5,6 };
+        //int n = 300;
+        //Big (out n);
+        //Console.WriteLine(n);
 
-////arr5.CopyTo(arr5, 3);
+        //static void Big(out int n)
+        //{
+        //    n = 2;
+        //    Console.WriteLine(n);
+        //}
 
-////foreach (var item in arr5)
-////{
-////    Console.WriteLine(item);
-////}
+        //string name = "Akber";
+        //string name2 = name;
+        //Console.WriteLine(name);
+        //Console.WriteLine(name2);
 
 
+        //string address = "Baku";
+        //Console.WriteLine(address.Length);
 
-//string name4 = "Cinare";
-//var test = name.Reverse().ToArray();
-//string res = "";
+        //string address = "baku";
+        //int result = address.Length;
+        //Console.WriteLine(result);
 
-//foreach ( var item in test)
-//{
-//    res += item;
-//}
-// Console.WriteLine(res);
 
-//int[,] array2D = new int[,] {{ 1, 2 }, { 3, 4 }, { 5, 6 }, { 7,8 }};
-//Console.WriteLine(array2D[0,1,]);
 
+        //string addres = "baku";
+        //Console.WriteLine(addres.StartsWith("b"));
 
-//WriteConsole("hello");
+        //string address = "baku";
+        //Console.WriteLine(address.EndsWith("u"));
 
+        //if (address.EndsWith("u"))
+        //{
+        //    Console.WriteLine("yeah");
 
-//static void WriteConsole(string text)
-//{
-//    Console.WriteLine(text);
 
-//}
+        //}   
+        //else
+        //{
+        //    Console.WriteLine("nou");
+        //}
 
 
+        //address = "Xezer";
+        //Console.WriteLine(address.Toupper)());
 
-//string name6 = "cavid";
-//string surname6 = "alizade";
-//int age6 = 23;
+        //string address = "roya";
+        // var letter = address[2].ToString().ToUpper();
+        //var  arr = address.ToCharArray();
+        //arr[2]= char.Parse(letter);
+        //string result = "";
+        //foreach (var itemin arr)
+        //{
+        //    result += itemin;
+        //}
 
+        ////Console.WriteLine(result);
+        //string name = "jeyhun";
+        //Console.WriteLine(name.ToUpper());
 
+        //string name = "jeyhun";
 
-//string name8 = "aydin";
-//string surname8 = "salami";
-//int age8 = 26;
+        //Console.WriteLine(name.Replace("jeyhun", "nuhyej"));
+
+
+
+
+
+
+        //string name = "aydin";
+        //name = "ferid";
+
+        //StringBuilder stringBuilder= new StringBuilder();
+
+
+        //string name = "ay";
+        //string name2 = "din";
+        //string endName = name + name2;
+
+        //StringBuilder stringBuilder= new StringBuilder();
+        //stringBuilder.Append("ay");
+        //stringBuilder.Append("din");
+        //Console.WriteLine(stringBuilder);
+
+
+        //int[] arr1 = { 1, 2, 3, 4, 5, 6 };
+
+        //int[] arr2 = new int[10];
+        //int[] arr3 = new int[5] { 1, 2, 3, 4, 5, };
+
+
+        //Console.WriteLine(arr1[1]);
+
+        //Console.WriteLine(arr1.Length);
+
+        //Console.WriteLine(arr1.FirstOrDefault());
+
+
+
+        //int[] arr4 = {2,4,5,6};
+        // Console.WriteLine(arr4.Length);
+        //Array.Resize(ref arr1, 4);
+
+        //Console.WriteLine(arr4.Length);
+
+
+
+
+        //int[] arr5 = { 3, 4, 5, 6 };
+
+        //foreach (var item in arr5) 
+        //{
+        //     Console.WriteLine($"{item}");
+
+
+        //}
+
+        ////var newArr = arr5.Clone();
+        ////int[] arr5 = { 3,4,5,6 };
+
+        ////arr5.CopyTo(arr5, 3);
+
+        ////foreach (var item in arr5)
+        ////{
+        ////    Console.WriteLine(item);
+        ////}
+
+
+
+        //string name4 = "Cinare";
+        //var test = name.Reverse().ToArray();
+        //string res = "";
+
+        //foreach ( var item in test)
+        //{
+        //    res += item;
+        //}
+        // Console.WriteLine(res);
+
+        //int[,] array2D = new int[,] {{ 1, 2 }, { 3, 4 }, { 5, 6 }, { 7,8 }};
+        //Console.WriteLine(array2D[0,1,]);
+
+
+        //WriteConsole("hello");
+
+
+        //static void WriteConsole(string text)
+        ////{
+        ////    Console.WriteLine(text);
+
+        ////}
+
+
+
+        ////string name6 = "cavid";
+        ////string surname6 = "alizade";
+        ////int age6 = 23;
+
+
+
+        ////string name8 = "aydin";
+        ////string surname8 = "salami";
+        ////int age8 = 26;
+
+        ////Console.WriteLine($"{name8} {surname8} {age8}");
+
+
+        ////var stu8 = new
+        ////{
+        ////    name = "cavid",
+        ////    surname = "alizade",
+        ////age=23
+
+        ////};
+
+
+
+        //Account account1 = new Account();
+        //account1.username = "Cavid123";
+        //account1.password = "Cavid1993";
+
+        // Console.WriteLine($"{account1.username} - {account1.password}");
+
+        //if (account1.username = account1.password)
+        //{
+
+        //    Console.WriteLine("giris duzgundur");
+
+        //}
+        //else
+        //{
+        //    Console.WriteLine("yanlisdir");
+        //}
+
+////Car car = new Car();
+
+// Animal animal = new Animal();
+
+//Birds birds = new Birds();
+//Console.WriteLine(birds.name);
+//Birds.Sound();
+
+//Dog dog = new Dog();
+//dog.name = "toplan";
+//dog.xxx = "yyy";
+
+//Console.WriteLine(dog.name + '' + dog.xxx);
+// Car.Date =DateTime.Now;
  
-//Console.WriteLine($"{name8} {surname8} {age8}");
-
-
-//var stu8 = new
-//{
-//    name = "cavid",
-//    surname = "alizade",
-//age=23
-
-//};
-
-
-
-Account account1 = new Account();
-account1.username = "Cavid123";
-account1.password = "Cavid1993";
-
- Console.WriteLine($"{account1.username} - {account1.password}");
-
-if (1account1.username = account1.password)
-{
-
-    Console.WriteLine("giris duzgundur");
-
-}
-else
-{
-    Console.WriteLine("yanlisdir");
-}
-
-
